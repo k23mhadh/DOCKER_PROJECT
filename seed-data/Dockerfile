@@ -13,7 +13,6 @@ WORKDIR /app
 # Copy the Python script and Bash script into the container
 COPY make-data.py .
 COPY generate-votes.sh .
-
 # Make the Bash script executable
 RUN chmod +x generate-votes.sh
 
